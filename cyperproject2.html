@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>🔐 نصائح الأمن السيبراني</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🔐 Cybersecurity Tips</title>
 
 <style>
 body {
     background: #0c1117;
     color: #fff;
-    font-family: "Tajawal", sans-serif;
-    padding: 35px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
     line-height: 1.8;
 }
 
@@ -17,7 +20,7 @@ body {
     max-width: 700px;
     margin: auto;
     background: #151a22;
-    padding: 30px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
 }
@@ -26,11 +29,13 @@ h1 {
     color: #4fc3f7;
     text-align: center;
     margin-bottom: 25px;
+    font-size: 26px;
 }
 
 h2 {
     color: #ffca28;
     margin-top: 25px;
+    font-size: 20px;
 }
 
 .tip {
@@ -39,10 +44,11 @@ h2 {
     border-radius: 12px;
     margin: 15px 0;
     border-right: 4px solid #4fc3f7;
+    font-size: 15px;
 }
 
 ul {
-    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .back-btn {
@@ -61,58 +67,63 @@ ul {
 .back-btn:hover {
     background: #00b0ff;
 }
+
+/* Responsive */
+@media (max-width: 480px) {
+    h1 { font-size: 22px; }
+    h2 { font-size: 18px; }
+    .container { padding: 18px; }
+}
 </style>
 </head>
 
 <body>
 
 <div class="container">
-    <h1>🔐 نصائح الأمن السيبراني</h1>
+    <h1>🔐 Cybersecurity Tips</h1>
 
     <p>
-        بما أنك وصلت لهذه الصفحة… فهذا يعني إنك تهتم بأمانك.  
-        هنا أهم الأنواع الشائعة للهجمات، مع نصائح بسيطة تحميك.
+        If you reached this page, it means you care about your digital safety.  
+        Here's a quick guide to common attack types and how to protect yourself.
     </p>
 
-    <h2>🎣 1) هجمات التصيّد (Phishing)</h2>
+    <h2>🎣 1) Phishing Attacks</h2>
     <div class="tip">
-        محاولة خداعك برسالة أو رابط يبدو رسمي بهدف سرقة بياناتك.
+        Attempts to trick you into revealing personal information using fake emails, messages, or websites.
         <br><br>
-        <strong>أمثلة:</strong>
+        <strong>Examples:</strong>
         <ul>
-            <li>رسالة "حدثت مشكلة في حسابك… سجل دخول الآن"</li>
-            <li>روابط تبدو مثل مواقع رسمية لكنها مزيفة</li>
+            <li>"There is an issue with your account… log in now"</li>
+            <li>Fake websites that look official</li>
         </ul>
     </div>
 
     <h2>📱 2) QR Phishing</h2>
     <div class="tip">
-        وضع QR مزيف في أماكن عامة يقودك لموقع ضار أو يطلب بياناتك.
+        Attackers place malicious QR codes in public areas to redirect users to harmful websites.
     </div>
 
-    <h2>💾 3) Malware (البرمجيات الخبيثة)</h2>
+    <h2>💾 3) Malware</h2>
     <div class="tip">
-        ملفات ضارة تثبت على جهازك بمجرد الضغط على رابط أو تحميل ملف.
+        Harmful software installed on your device through suspicious downloads or links.
     </div>
 
-    <h2>🕵️ 4) Social Engineering (الهندسة الاجتماعية)</h2>
+    <h2>🕵️ 4) Social Engineering</h2>
     <div class="tip">
-        استغلال العامل البشري بخداعك أو استعجالك لاتخاذ قرار غير آمن.
+        Manipulation techniques attackers use to trick individuals into giving sensitive information.
     </div>
 
-    <h2>🛡️ أهم النصائح</h2>
+    <h2>🛡️ Key Safety Tips</h2>
 
-    <div class="tip">✔ لا تمسح QR مجهول أو مطبوع بشكل عشوائي.</div>
-    <div class="tip">✔ لا تدخل بياناتك في أي موقع قبل التأكد من الرابط.</div>
-    <div class="tip">✔ فعل التحقق الثنائي 2FA.</div>
-    <div class="tip">✔ حدث جهازك باستمرار.</div>
-    <div class="tip">✔ لا تضغط أي رابط يصلك من شخص مجهول أو غير معتاد.</div>
+    <div class="tip">✔ Never scan unknown QR codes.</div>
+    <div class="tip">✔ Verify links before entering personal data.</div>
+    <div class="tip">✔ Enable Two-Factor Authentication (2FA).</div>
+    <div class="tip">✔ Keep your device updated.</div>
+    <div class="tip">✔ Avoid clicking unknown links.</div>
 
-    <a href="index.html" class="back-btn">⬅ رجوع</a>
+    <a href="index.html" class="back-btn">⬅ Back</a>
 </div>
 
 </body>
 </html>
-
-
 
